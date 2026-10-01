@@ -2,6 +2,9 @@
 **This is fork of Usque with zero-source UDP ASSOCIATE support based on this [branch](https://github.com/Diniboy1123/usque/tree/fix/udpassociatebind), with this [commit](https://github.com/Diniboy1123/usque/commit/10bc84c032210a2fb565c8393a60d141afb5d500).
 If you have error like "udp address 127.0.0.1:XXXX is not associated with tcp" with main build - try this fork**
 
+<details>
+  <summary>Original readme</summary>
+  
 🥚➡️🍏🍎
 
 Usque is an open-source reimplementation of the Cloudflare WARP client's MASQUE mode. It leverages the [Connect-IP (RFC 9484)](https://datatracker.ietf.org/doc/rfc9484/) protocol and comes with many operation modes including a native tunnel, SOCKS5 and HTTP proxies, and faster TCP-only L4 proxy variants.
@@ -654,3 +657,5 @@ While the tool was made with security considerations in mind, I am not a securit
 **This tool is not affiliated with Cloudflare in any way. The tool was neither endorsed nor reviewed by Cloudflare. It is an independent research project. Cloudflare Warp, Warp+, 1.1.1.1™, Cloudflare Access™, Cloudflare Gateway™ and Cloudflare One™ [are all registered trademarks/wordmarks](https://www.cloudflare.com/trademark/) of Cloudflare, Inc. If you are a Cloudflare employee and you think this project is in any way harmful, please open an issue and I will do my best to contact you and resolve the issue.**
 
 WireGuard™ is a [registered trademark](https://www.wireguard.com/trademark-policy/) of Jason A. Donenfeld.
+
+</details>
